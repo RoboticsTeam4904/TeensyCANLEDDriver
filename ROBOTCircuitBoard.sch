@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:teensy
 LIBS:ROBOTCircuitBoard-cache
 EELAYER 25 0
 EELAYER END
@@ -61,7 +60,7 @@ U 1 1 5872AF2C
 P 2950 5300
 F 0 "U2" H 2950 6800 60  0000 C CNN
 F 1 "Teensy3.2" H 2950 3800 60  0000 C CNN
-F 2 "Teensy:Teensy30_31_32_LC" H 2950 4500 60  0001 C CNN
+F 2 "Teensy:Teensy30_31_32_LC_LessPins" H 2950 4500 60  0001 C CNN
 F 3 "" H 2950 4500 60  0000 C CNN
 	1    2950 5300
 	1    0    0    -1  
@@ -214,10 +213,8 @@ F 3 "" H 6550 3350 50  0000 C CNN
 	1    6550 3350
 	0    1    1    0   
 $EndComp
-Text Label 6200 2650 0    60   ~ 0
-CANL
 Text Label 6200 2850 0    60   ~ 0
-CANH
+CANL
 $Comp
 L +5V #PWR07
 U 1 1 58742267
@@ -378,7 +375,7 @@ U 1 1 58798A7D
 P 5050 5050
 F 0 "P1" H 5050 5250 50  0000 C CNN
 F 1 "CONN_01X03" V 5150 5050 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x03" H 5050 5050 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 5050 5050 50  0001 C CNN
 F 3 "" H 5050 5050 50  0000 C CNN
 	1    5050 5050
 	1    0    0    -1  
@@ -415,7 +412,7 @@ U 1 1 587A6865
 P 6800 5100
 F 0 "P3" H 6800 5350 50  0000 C CNN
 F 1 "CONN_01X04" V 6900 5100 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 6800 5100 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 6800 5100 50  0001 C CNN
 F 3 "" H 6800 5100 50  0000 C CNN
 	1    6800 5100
 	1    0    0    -1  
@@ -426,7 +423,7 @@ U 1 1 587A695F
 P 6800 5900
 F 0 "P4" H 6800 6150 50  0000 C CNN
 F 1 "CONN_01X04" V 6900 5900 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 6800 5900 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 6800 5900 50  0001 C CNN
 F 3 "" H 6800 5900 50  0000 C CNN
 	1    6800 5900
 	1    0    0    -1  
@@ -497,7 +494,7 @@ U 1 1 587A8A18
 P 5850 4250
 F 0 "P2" H 5850 4500 50  0000 C CNN
 F 1 "CONN_01X04" V 5950 4250 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 5850 4250 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 5850 4250 50  0001 C CNN
 F 3 "" H 5850 4250 50  0000 C CNN
 	1    5850 4250
 	1    0    0    -1  
@@ -682,4 +679,127 @@ F 3 "" H 1750 2600 50  0000 C CNN
 	1    1750 2600
 	1    0    0    -1  
 $EndComp
+Text Label 6200 2650 0    60   ~ 0
+CANH
+$Comp
+L CONN_01X04 P24
+U 1 1 58A8FC16
+P 9200 5900
+F 0 "P24" H 9200 6150 50  0000 C CNN
+F 1 "CONN_01X04" V 9300 5900 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 9200 5900 50  0001 C CNN
+F 3 "" H 9200 5900 50  0000 C CNN
+	1    9200 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P13
+U 1 1 58A8FC85
+P 8300 5800
+F 0 "P13" H 8300 6050 50  0000 C CNN
+F 1 "CONN_01X04" V 8400 5800 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 8300 5800 50  0001 C CNN
+F 3 "" H 8300 5800 50  0000 C CNN
+	1    8300 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P15
+U 1 1 58A8FDA2
+P 8300 5100
+F 0 "P15" H 8300 5350 50  0000 C CNN
+F 1 "CONN_01X04" V 8400 5100 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 8300 5100 50  0001 C CNN
+F 3 "" H 8300 5100 50  0000 C CNN
+	1    8300 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X05 P5
+U 1 1 58AA31F6
+P 5050 5650
+F 0 "P5" H 5050 5950 50  0000 C CNN
+F 1 "CONN_01X05" V 5150 5650 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_5pol" H 5050 5650 50  0001 C CNN
+F 3 "" H 5050 5650 50  0000 C CNN
+	1    5050 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 4950 8000 4950
+Wire Wire Line
+	8100 5050 8000 5050
+Wire Wire Line
+	8100 5150 8000 5150
+Wire Wire Line
+	8100 5250 8000 5250
+Wire Wire Line
+	9000 5750 8900 5750
+Wire Wire Line
+	9000 5850 8900 5850
+Wire Wire Line
+	9000 5950 8900 5950
+Wire Wire Line
+	9000 6050 8900 6050
+Wire Wire Line
+	8100 5650 8000 5650
+Wire Wire Line
+	8100 5750 8000 5750
+Wire Wire Line
+	8100 5850 8000 5850
+Wire Wire Line
+	8100 5950 8000 5950
+Wire Wire Line
+	1950 6000 1800 6000
+Wire Wire Line
+	1950 6100 1800 6100
+Wire Wire Line
+	1950 6200 1800 6200
+Wire Wire Line
+	1950 6300 1800 6300
+Wire Wire Line
+	1950 6600 1800 6600
+Wire Wire Line
+	3950 6600 4100 6600
+Wire Wire Line
+	3950 6500 4100 6500
+Wire Wire Line
+	3950 6400 4100 6400
+$Comp
+L CONN_01X04 P?
+U 1 1 58AA511C
+P 9050 5150
+F 0 "P?" H 9050 5400 50  0000 C CNN
+F 1 "CONN_01X04" V 9150 5150 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 9050 5150 50  0001 C CNN
+F 3 "" H 9050 5150 50  0000 C CNN
+	1    9050 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 5000 8750 5000
+Wire Wire Line
+	8850 5100 8750 5100
+Wire Wire Line
+	8850 5200 8750 5200
+Wire Wire Line
+	8850 5300 8750 5300
+Text Label 8000 4950 0    60   ~ 0
+A0
+Text Label 8000 5050 0    60   ~ 0
+A1
+Text Label 8000 5650 0    60   ~ 0
+A2
+Text Label 8000 5750 0    60   ~ 0
+A3
+Text Label 8750 5000 0    60   ~ 0
+A6
+Text Label 8750 5100 0    60   ~ 0
+A7
+Text Label 8900 5750 0    60   ~ 0
+A8
+Text Label 8900 5850 0    60   ~ 0
+A9
+Text Label 1800 6000 0    60   ~ 0
+A0
 $EndSCHEMATC
