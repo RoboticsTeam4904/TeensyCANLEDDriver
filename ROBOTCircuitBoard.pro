@@ -1,6 +1,6 @@
-update=Monday, February 20, 2017 'PMt' 03:45:31 PM
+update=Tuesday, March 21, 2017 'PMt' 08:05:49 PM
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -43,7 +43,7 @@ LibName30=teensy
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=ROBOTCircuitBoard3.net
+LastNetListRead=ROBOTCircuitBoard.net
 PadDrill=0.762
 PadDrillOvalY=0.762
 PadSizeH=1.524
